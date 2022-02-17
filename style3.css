@@ -1,0 +1,26 @@
+.main-div {
+    width: 1024px;
+}
+
+.bottom {
+    background-color: brown;
+    height: 100px;
+    margin: 200px auto;
+}
+
+.eye {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.face-div {
+    width: 600px;
+    margin: 0 auto;
+}

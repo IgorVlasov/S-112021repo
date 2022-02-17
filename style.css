@@ -1,0 +1,104 @@
+.conteiner {
+    width: 1024px;
+    margin: 0 auto; 
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar {
+    width: 200px;
+    box-shadow: 0 0 15px gray;
+}
+
+.left {
+    background-color: antiquewhite;
+    width: 250px;
+    padding: 5px;
+    text-align: center;
+    border: 5px solid white;
+}
+
+.right {
+    
+    padding: 5px;
+    width: 75%;
+}
+
+.info {
+    background-color: bisque;
+    padding: 5px;
+}
+
+.gallery, .study, .example {
+    background-color: bisque;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.images img {
+    width: 24%;
+}
+
+.info h1 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: #dddddd;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.menu li {
+    width: 200px;
+    height: 50px;
+    background-color: firebrick;
+    text-align: center;
+    border: 1px solid white;
+    margin: 0 5px;
+    padding-top: 25px;
+    border-radius: 25px;
+}
+
+header{
+    height: 100px;
+    background-color: bisque;
+    padding-top: 15px;
+    border: 5px solid white;
+}
+
